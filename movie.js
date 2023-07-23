@@ -1,9 +1,7 @@
 var movies_display= document.getElementById('movies_list')
 var search=document.getElementById('search')
 var pagination = document.getElementById("pagination")
-
 movies_list(1)
-
 /*Fetching Data from OMDB API*/
 async function movies_list(pagenumber){
     if(search.value=='')
