@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Movies</title>
+    <link rel="stylesheet" href="movie.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+ 
+<body>
+    <div class="header">
+       <h2 >Search For Movies</h2>
+       <input type="text" name="search" id="search" placeholder="search" onkeyup="search_movie()">       
+    </div>
+    <div id="movies_list"></div>
+    <div  id="pagination" class="pagination"> 1
+        <a onclick="next()">
+            <i class="fa fa-angle-double-right">
+            </i>
+        </a>
+    </div>
+    <script src="movie.js"></script>
+</body>
